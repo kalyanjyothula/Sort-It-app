@@ -1,0 +1,20 @@
+{
+  "name": "sort-it-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "sortItApi/index.js",
+  "scripts": {
+    "start": "node sortItApi/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon backend/server.js",
+    "client": "npm start --prefix sortIt",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "Kalyan Jyothula",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.2",
+    "nodemon": "^2.0.19"
+  }
+}
