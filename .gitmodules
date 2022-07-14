@@ -1,0 +1,6 @@
+[submodule "sortIt"]
+	path = sortIt
+	url = git@github.com:kalyanjyothula/sortIt.git
+[submodule "sortItApi"]
+	path = sortItApi
+	url = git@github.com:kalyanjyothula/sortItApi.git
